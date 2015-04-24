@@ -1,5 +1,5 @@
 {
-	"name" : "zero9/zero-media-manager-plugin",
+	"name" : "faferreyra/zero-media-manager-plugin",
 	"type" : "symfony1-plugin",
 	"description" : "",
 	"keywords" : ["symfony", "cms"],
@@ -8,7 +8,7 @@
 	},
 	"extra" : {
 		"branch-alias" : {
-			"dev-master" : "1.0.0"
+			"dev-master" : "1.0.x-dev"
 		}
 	}
 }
