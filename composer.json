@@ -1,0 +1,14 @@
+{
+	"name" : "zero9/zero-media-manager-plugin",
+	"type" : "symfony1-plugin",
+	"description" : "",
+	"keywords" : ["symfony", "cms"],
+	"require" : {
+		"composer/installers" : "*"
+	},
+	"extra" : {
+		"branch-alias" : {
+			"dev-master" : "1.0.0"
+		}
+	}
+}

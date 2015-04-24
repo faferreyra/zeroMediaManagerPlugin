@@ -1,0 +1,44 @@
+@import "dropzone.css";
+#media-manager {
+  min-height: 400px;
+}
+#media-manager .thumbnail {
+  text-align: center;
+  cursor: pointer;
+}
+#media-manager .thumbnail .icon {
+  box-sizing: border-box;
+  height: 90px;
+  line-height: 60px;
+  padding: 8px;
+}
+#media-manager .thumbnail .icon a {
+  line-height: 60px;
+}
+#media-manager .thumbnail .image {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 90px;
+}
+#media-manager .thumbnail .caption {
+  box-sizing: border-box;
+  font-size: 11px;
+  overflow: hidden;
+  padding: 9px 0;
+  height: 65px;
+}
+#media-manager .thumbnail .caption p {
+  max-width: 100%;
+  text-overflow: ellipsis;
+}
+#media-manager .thumbnail .actions .dropdown-menu > li > a {
+  display: block;
+  color: #333;
+  font-size: 11px;
+}
+#media-manager a {
+  color: #c00;
+  display: inline-block;
+}
